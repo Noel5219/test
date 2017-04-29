@@ -16,9 +16,7 @@
   body {
     font-size: 1.8rem;
   }
-  header {
-    text-align: right;
-  }
+
   h1, h2, h3 {
     font-weight: normal;
   }
@@ -37,19 +35,19 @@
     margin: 0 auto -7rem;
     position: relative;
   }
-  footer, .push {
-    height: 7rem;
-  }
 
   footer .footer-contents {
     padding: 0 5rem;
     position: relative;
   }
 
+  .logo{
+    width:310px;
+    height:155px;
+  }
+
   .website-nav {
     display: inline-block;
-    position: relative;
-    padding: 5rem;
   }
 
   .website-nav ul {
@@ -68,10 +66,6 @@
     color: #000;
     font-size: 18px;
     text-decoration: none;
-  }
-
-  .home-link {
-    font-weight: bold;
   }
 
   .message {
