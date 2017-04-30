@@ -28,6 +28,22 @@
     color: white;
     text-decoration: none;
   }
+
+  header {
+    position: relative;
+  }
+
+  .hearderFrame{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .headerImg {
+    width: 100%;
+
+  }
+
   .wrapper {
     min-height: 100%;
     height: auto !important;
@@ -130,6 +146,9 @@
     }
   }
 
-  @media (min-height: 500px) and (min-width: 700px) {
-
+  @media (min-width: 1200px) {
+    .logo,
+    .website-nav {
+      width: calc(50% - 20px);
+    }
   }
