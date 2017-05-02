@@ -57,11 +57,26 @@
     margin-top: -25px;
   }
 
-  footer .footer-contents {
-    padding: 0 5rem;
+  footer{
+    padding: 20px;
+    color: #FFF;
     position: relative;
+    text-align: center;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size:cover;
   }
 
+  .footerText{
+    margin: 10px;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .footerText div {
+    min-width: calc(50% - 10px);
+    display: inline-block;
+  }
   .logo{
     width:310px;
     height:155px;
@@ -113,10 +128,12 @@
   .carouselArrow{
     line-height: 450px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 768px) {
     .logo,
     .navFrame {
       width: calc(50% - 20px);
     }
-
+    .footerText{
+      width: 40%;
+    }
   }
