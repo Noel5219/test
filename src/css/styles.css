@@ -42,6 +42,7 @@ header {
 
 .hearderFrame {
     width: 100%;
+    /*background-color: #FFF;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -120,7 +121,8 @@ footer {
     color: #DC9C35;
 }
 
-.content {
+.content,
+.product {
     padding: 15px;
     background-color: #FFF;
     text-align: center;
@@ -149,7 +151,7 @@ footer {
     line-height: 450px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .logo,
     .navFrame {
         width: calc(50% - 20px);
@@ -162,9 +164,19 @@ footer {
     }
 }
 
-@media (min-width: 361px) and (max-width: 767px) {
+@media (min-width: 361px) and (max-width: 768px) {
+    .navFrame {
+        width: calc(70% - 20px);
+    }
+    .logo{
+        width: 30%;
+    }
     .homeIntroduction {
         width: 50%;
+    }
+    .fbIcon{
+        width: 30px;
+        height: 30px;
     }
 }
 
