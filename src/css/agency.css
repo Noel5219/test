@@ -732,3 +732,30 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+footer {
+    padding: 20px;
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerText {
+    margin: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.footerText div {
+    min-width: calc(50% - 10px);
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .footerText {
+        width: 40%;
+    }
+}
