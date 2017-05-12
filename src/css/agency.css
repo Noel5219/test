@@ -226,7 +226,11 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
+    width: 177px;
+    height: 100px;
+    background-image: url('../img/logo.png');
   }
+
 }
 header {
   background-image: url('../img/header.png');
@@ -241,8 +245,9 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 140px;
-  padding-bottom: 10px;
+  height: 300px;
+/*  padding-top: 140px;
+  padding-bottom: 10px;*/
 }
 
 @media (min-width: 768px) {
@@ -475,13 +480,14 @@ section h3.section-subheading {
 }
 @media (min-width: 992px) {
   .navbar-custom .navbar-brand {
-    width: 145px;
-    height: 249px;
+    width: 160px;
+    height: 275px;
     background-image: url('../img/vLogo.png');
   }
   header .intro-text {
-    padding-top: 430px;
-    padding-bottom: 50px;
+    height: 530px;
+    /*padding-top: 430px;
+    padding-bottom: 50px;*/
   }
   .timeline > li {
     min-height: 150px;
