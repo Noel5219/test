@@ -484,6 +484,31 @@ section h3.section-subheading {
     padding: 0 30px 20px 20px;
   }
 }
+
+.notice{
+  color: #B68C52;
+  font-size: 18px;
+  border: 2px solid #B68C54;
+  padding: 5px 5px 5px 35px;
+  margin: 10px 0px;
+  background-image: url(../img/about/notice.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+
+}
+.notice:hover{
+  color: #F0730C;
+}
+.noticeFrame{
+  max-width: 400px;
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+
+.noticeFrame > p{
+  color: #804e21;
+}
 @media (min-width: 992px) {
   .navbar-custom .navbar-brand {
     width: 160px;
