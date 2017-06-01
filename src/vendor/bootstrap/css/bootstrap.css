@@ -1144,6 +1144,9 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.img-circle:hover{
+  opacity: 0.7;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;

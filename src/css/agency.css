@@ -484,6 +484,16 @@ section h3.section-subheading {
     padding: 0 30px 20px 20px;
   }
 }
+.about-us-title{
+  font-size: 24px;
+  color: #B68C52;
+  border-bottom: 1px solid #B68C52;
+  margin-bottom: 20px;
+}
+
+.about-us-title:hover{
+  color: #F0730C;
+}
 
 .notice{
   color: #B68C52;
