@@ -823,3 +823,10 @@ footer {
         width: 40%;
     }
 }
+@media (max-width: 767px) {
+  header {
+    background-image: url('../img/header-sm.png');
+    background-size: 100%;
+    background-position: 0px 50px;
+  }
+}
