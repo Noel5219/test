@@ -468,6 +468,12 @@ section h3.section-subheading {
   color: #ccc;
 }
 
+.sgs{
+  width: 33%;
+  padding: 10px;
+  display: inline-block;
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -828,5 +834,8 @@ footer {
     background-image: url('../img/header-sm.png');
     background-size: 100%;
     background-position: 0px 50px;
+  }
+  .sgs{
+    width: 70%;
   }
 }
