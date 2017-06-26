@@ -469,7 +469,7 @@ section h3.section-subheading {
 }
 
 .sgs{
-  width: 33%;
+  width: 40%;
   padding: 10px;
   display: inline-block;
 }
@@ -804,25 +804,35 @@ body {
 }
 
 footer {
-    padding: 20px;
+    margin-top: 20px;
+    padding: 10px;
     color: #FFF;
     position: relative;
     text-align: center;
-    background-image: url(../img/footer.png);
+    background-color: #222222;
+   /* background-image: url(../img/newFooter.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
-.footerText {
+/*footer > h4 {
+    display: inline-block;
+    padding: 5px 10px;
+    background: -webkit-linear-gradient(90deg, #efc780, #eba845);
+    background: -o-linear-gradient(90deg, #efc780, #eba845);
+    background: -moz-linear-gradient(90deg, #efc780, #eba845);
+    background: linear-gradient(90deg, #efc780, #eba845);
+}*/
+/*.footerText {
     margin: 10px;
     text-align: left;
     display: inline-block;
 }
-
-.footerText div {
+*/
+/*.footerText div {
     min-width: calc(50% - 10px);
     display: inline-block;
-}
+}*/
 
 @media (min-width: 768px) {
     .footerText {
