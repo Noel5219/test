@@ -199,38 +199,7 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #fec503;
 }
-@media (min-width: 768px) {
-  .navbar-custom .nav li a {
-    color: #000;
-  }
-  .navbar-custom {
-    background-color: transparent;
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-    border: none;
-  }
-  .navbar-custom .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .navbar-custom .navbar-nav > .active > a {
-    border-radius: 3px;
-  }
-  .navbar-custom.affix {
-    background-color: #FFF;
-    padding: 10px 0;
-  }
-  .navbar-custom.affix .navbar-brand {
-    width: 253px;
-    height: 120px;
-    background-image: url('../img/logo.png');
-  }
 
-}
 header {
   background-image: url('../img/header.png');
   background-repeat: no-repeat;
@@ -253,20 +222,7 @@ header .intro-text .underImg{
   max-width: 400px;
   margin-top: 400px;
 }
-@media (min-width: 768px) {
-  .navbar-custom .navbar-brand {
-    width: 100px;
-    height: 171px;
-    background-image: url('../img/vLogo-sm.png');
-  }
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 50px;
-  }
-  header .intro-text .underImg{
-    margin-top: 300px;
-  }
-}
+
 section {
   padding: 40px 0px 60px 0px;
 }
@@ -277,17 +233,13 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFF;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
 }
-@media (min-width: 768px) {
-  /*section {
-    padding: 80px 0;
-  }*/
-}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -359,11 +311,7 @@ section h3.section-subheading {
   background-color: rgba(154, 93, 45, 0.3);
 }
 
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -424,6 +372,11 @@ section h3.section-subheading {
   border: 7px solid #f1f1f1;
   text-align: center;
 }
+.timeline-image > span {
+  height: 65px;
+  line-height: 65px;
+  font-size: 8pt;
+}
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   margin-top: 12px;
@@ -474,37 +427,7 @@ section h3.section-subheading {
   display: inline-block;
 }
 
-@media (min-width: 768px) {
-  .timeline:before {
-    left: 50%;
-  }
-  .timeline > li {
-    margin-bottom: 100px;
-    min-height: 100px;
-  }
-  .timeline > li .timeline-panel {
-    width: 41%;
-    float: left;
-    padding: 0 20px 20px 30px;
-    text-align: right;
-  }
-  .timeline > li .timeline-image {
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    margin-left: -50px;
-  }
-  .timeline > li .timeline-image h4 {
-    font-size: 13px;
-    margin-top: 16px;
-    line-height: 18px;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
-    text-align: left;
-    padding: 0 30px 20px 20px;
-  }
-}
+
 .about-us-title,
 .product-descipt-title{
   font-size: 24px;
@@ -541,56 +464,7 @@ section h3.section-subheading {
 .noticeFrame > p{
   color: #804e21;
 }
-@media (min-width: 992px) {
-  .navbar-custom .navbar-brand {
-    width: 160px;
-    height: 275px;
-    background-image: url('../img/vLogo.png');
-  }
-  header .intro-text {
-    height: 530px;
-    /*padding-top: 430px;
-    padding-bottom: 50px;*/
-  }
-  .timeline > li {
-    min-height: 150px;
-  }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px;
-  }
-  .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
-  }
-  .timeline > li .timeline-image h4 {
-    font-size: 18px;
-    margin-top: 30px;
-    line-height: 26px;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 20px 20px;
-  }
-}
-@media (min-width: 1200px) {
-  .timeline > li {
-    min-height: 170px;
-  }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
-  }
-  .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
-  }
-  .timeline > li .timeline-image h4 {
-    margin-top: 40px;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
-  }
-}
+
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -810,35 +684,13 @@ footer {
     position: relative;
     text-align: center;
     background-color: #222222;
-   /* background-image: url(../img/newFooter.png);
-    background-repeat: no-repeat;
-    background-size: cover;*/
+}
+.productCompare{
+  width: 90%;
+  margin-top: 20px;
 }
 
-/*footer > h4 {
-    display: inline-block;
-    padding: 5px 10px;
-    background: -webkit-linear-gradient(90deg, #efc780, #eba845);
-    background: -o-linear-gradient(90deg, #efc780, #eba845);
-    background: -moz-linear-gradient(90deg, #efc780, #eba845);
-    background: linear-gradient(90deg, #efc780, #eba845);
-}*/
-/*.footerText {
-    margin: 10px;
-    text-align: left;
-    display: inline-block;
-}
-*/
-/*.footerText div {
-    min-width: calc(50% - 10px);
-    display: inline-block;
-}*/
 
-@media (min-width: 768px) {
-    .footerText {
-        width: 40%;
-    }
-}
 @media (max-width: 767px) {
   header {
     background-image: url('../img/header-sm.png');
@@ -847,5 +699,158 @@ footer {
   }
   .sgs{
     width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 50px;
+  }
+  header .intro-text .underImg{
+    margin-top: 300px;
+  }
+
+  .navbar-custom .navbar-brand {
+    width: 100px;
+    height: 171px;
+    background-image: url('../img/vLogo-sm.png');
+  }
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+
+  .footerText {
+      width: 40%;
+  }
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+  .timeline-image > span {
+    height: 80px;
+    line-height: 80px;
+    font-size: 12pt;
+  }
+  .navbar-custom .nav li a {
+    color: #000;
+  }
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+  .navbar-custom.affix {
+    background-color: #FFF;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    width: 253px;
+    height: 120px;
+    background-image: url('../img/logo.png');
+  }
+}
+
+@media (min-width: 992px) {
+  header .intro-text {
+    height: 530px;
+  }
+  .navbar-custom .navbar-brand {
+    width: 160px;
+    height: 275px;
+    background-image: url('../img/vLogo.png');
+  }
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline-image > span {
+    height: 140px;
+    line-height: 140px;
+    font-size: 16pt;
+  }
+  .productCompare{
+    width: 950px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 200px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 50px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 200px;
+    height: 200px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 50px 40px;
+  }
+
+  .timeline-image > span {
+    height: 180px;
+    line-height: 180px;
+    font-size: 20pt;
+  }
+  .productCompare{
+    width: 1150px;
   }
 }
