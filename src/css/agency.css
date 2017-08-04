@@ -239,7 +239,17 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
-
+.shareFbAndLine{
+  width: 50px;
+  position: fixed;
+  right: 0px;
+  top: 180px;
+  z-index: 9999;
+}
+.linePopupClose{
+  padding-left: calc(30%);
+  margin-bottom: 10px;
+}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -700,6 +710,12 @@ footer {
   .sgs{
     width: 70%;
   }
+  .shareFbAndLine{
+    top: 100px;
+  }
+  .linePopupClose{
+    padding-left: calc(5%);
+  }
 }
 
 @media (min-width: 768px) {
@@ -710,7 +726,9 @@ footer {
   header .intro-text .underImg{
     margin-top: 300px;
   }
-
+  .linePopupClose{
+    padding-left: calc(15%);
+  }
   .navbar-custom .navbar-brand {
     width: 100px;
     height: 171px;
